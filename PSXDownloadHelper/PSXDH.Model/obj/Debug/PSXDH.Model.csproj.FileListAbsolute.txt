@@ -1,0 +1,5 @@
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.Model\bin\Debug\PSXDH.Model.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.Model\bin\Debug\PSXDH.Model.pdb
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.Model\obj\Debug\PSXDH.Model.csprojResolveAssemblyReference.cache
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.Model\obj\Debug\PSXDH.Model.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.Model\obj\Debug\PSXDH.Model.pdb

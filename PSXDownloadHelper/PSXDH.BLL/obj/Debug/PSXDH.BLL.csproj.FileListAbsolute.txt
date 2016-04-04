@@ -1,0 +1,9 @@
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.BLL\bin\Debug\PSXDH.BLL.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.BLL\bin\Debug\PSXDH.BLL.pdb
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.BLL\bin\Debug\PSXDH.DAL.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.BLL\bin\Debug\PSXDH.Model.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.BLL\bin\Debug\PSXDH.DAL.pdb
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.BLL\bin\Debug\PSXDH.Model.pdb
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.BLL\obj\Debug\PSXDH.BLL.csprojResolveAssemblyReference.cache
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.BLL\obj\Debug\PSXDH.BLL.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.BLL\obj\Debug\PSXDH.BLL.pdb

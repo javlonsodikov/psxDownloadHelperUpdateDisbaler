@@ -1,0 +1,13 @@
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\bin\Debug\PSXDH.HttpsHelp.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\bin\Debug\PSXDH.HttpsHelp.pdb
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\bin\Debug\PSXDH.BLL.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\bin\Debug\PSXDH.Model.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\bin\Debug\PSXDH.ProxyHelp.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\bin\Debug\PSXDH.DAL.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\bin\Debug\PSXDH.BLL.pdb
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\bin\Debug\PSXDH.Model.pdb
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\bin\Debug\PSXDH.ProxyHelp.pdb
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\bin\Debug\PSXDH.DAL.pdb
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\obj\Debug\PSXDH.HttpsHelp.csprojResolveAssemblyReference.cache
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\obj\Debug\PSXDH.HttpsHelp.dll
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.HttpsHelp\obj\Debug\PSXDH.HttpsHelp.pdb

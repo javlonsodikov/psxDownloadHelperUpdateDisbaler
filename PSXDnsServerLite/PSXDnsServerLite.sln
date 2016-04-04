@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSXDnsServerLite", "PSXDnsServerLite\PSXDnsServerLite.csproj", "{17AA6E25-0984-4525-89C6-A351D0B7F2D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARSoft.Tools.Net", "ARSoft.Tools.Net\ARSoft.Tools.Net.csproj", "{65BFA748-C640-49B0-B506-34BBB165233A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnsTest", "DnsTest\DnsTest.csproj", "{8DBB430B-3722-404B-B49F-3E7CF16B0A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSXDnsServerLiteWPF", "PSXDnsServerLiteWPF\PSXDnsServerLiteWPF.csproj", "{72A1D377-11F7-4CC0-919B-6C39889E72F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSXDnsServerLiteConsole", "PSXDnsServerLiteConsole\PSXDnsServerLiteConsole.csproj", "{EAE72A9C-60A7-45A9-9942-CB1BE10CE054}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs35
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ARSoft.Tools.Net\\ARSoft.Tools.Net.csproj
+		SccProjectName1 = ARSoft.Tools.Net
+		SccLocalPath1 = ARSoft.Tools.Net
+		SccProjectUniqueName2 = DnsTest\\DnsTest.csproj
+		SccProjectName2 = DnsTest
+		SccLocalPath2 = DnsTest
+		SccProjectUniqueName3 = PSXDnsServerLite\\PSXDnsServerLite.csproj
+		SccProjectName3 = PSXDnsServerLite
+		SccLocalPath3 = PSXDnsServerLite
+		SccProjectUniqueName4 = PSXDnsServerLiteConsole\\PSXDnsServerLiteConsole.csproj
+		SccProjectName4 = PSXDnsServerLiteConsole
+		SccLocalPath4 = PSXDnsServerLiteConsole
+		SccProjectUniqueName5 = PSXDnsServerLiteWPF\\PSXDnsServerLiteWPF.csproj
+		SccProjectName5 = PSXDnsServerLiteWPF
+		SccLocalPath5 = PSXDnsServerLiteWPF
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17AA6E25-0984-4525-89C6-A351D0B7F2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AA6E25-0984-4525-89C6-A351D0B7F2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AA6E25-0984-4525-89C6-A351D0B7F2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AA6E25-0984-4525-89C6-A351D0B7F2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BFA748-C640-49B0-B506-34BBB165233A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BFA748-C640-49B0-B506-34BBB165233A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BFA748-C640-49B0-B506-34BBB165233A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BFA748-C640-49B0-B506-34BBB165233A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBB430B-3722-404B-B49F-3E7CF16B0A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBB430B-3722-404B-B49F-3E7CF16B0A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBB430B-3722-404B-B49F-3E7CF16B0A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBB430B-3722-404B-B49F-3E7CF16B0A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A1D377-11F7-4CC0-919B-6C39889E72F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A1D377-11F7-4CC0-919B-6C39889E72F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A1D377-11F7-4CC0-919B-6C39889E72F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A1D377-11F7-4CC0-919B-6C39889E72F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE72A9C-60A7-45A9-9942-CB1BE10CE054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE72A9C-60A7-45A9-9942-CB1BE10CE054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE72A9C-60A7-45A9-9942-CB1BE10CE054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE72A9C-60A7-45A9-9942-CB1BE10CE054}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
