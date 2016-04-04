@@ -51,7 +51,7 @@
             this.tb_Ping = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.tb_filename = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_patch = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pic_isCdn)).BeginInit();
             this.SuspendLayout();
             // 
@@ -194,12 +194,13 @@
             this.tb_filename.ReadOnly = true;
             this.toolTip1.SetToolTip(this.tb_filename, resources.GetString("tb_filename.ToolTip"));
             // 
-            // button1
+            // btn_patch
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            resources.ApplyResources(this.btn_patch, "btn_patch");
+            this.btn_patch.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_patch.Name = "btn_patch";
+            this.btn_patch.UseVisualStyleBackColor = true;
+            this.btn_patch.Click += new System.EventHandler(this.btn_patch_Click);
             // 
             // UrlReplace
             // 
@@ -207,7 +208,7 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.lb_copy);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_patch);
             this.Controls.Add(this.tb_filename);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.tb_Ping);
@@ -259,6 +260,6 @@
         private System.Windows.Forms.TextBox tb_Ping;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox tb_filename;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_patch;
     }
 }

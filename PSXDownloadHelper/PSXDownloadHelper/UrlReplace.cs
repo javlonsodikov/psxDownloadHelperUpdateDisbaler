@@ -131,8 +131,9 @@ namespace PSXDownloadHelper
                     ReplacePath = LocalPath,
                     MarkTxt = MarkTxt,
                     LixianUrl = tb_lx.Text,
-                    IsLixian = !tb_lx.ReadOnly
-                };
+                    IsLixian = !tb_lx.ReadOnly,
+                    Patch = !tb_filename.ReadOnly,
+            };
             return ui;
         }
 
@@ -255,11 +256,23 @@ namespace PSXDownloadHelper
         {
             //lb_filename.Visible = false;
         }
-
-        private void button1_Click(object sender, EventArgs e)
+ 
+        private void btn_patch_Click(object sender, EventArgs e)
         {
-            Clipboard.SetDataObject(tb_filename.Text);
-            ShowCopySuccess((MouseEventArgs)e);
+            if (btn_patch.Text == "Block")
+            {
+                tb_filename.ReadOnly = false;
+                btn_patch.Text = "Unblock";
+                //IsLixian = true;
+                DataHistoryOperate.AddLog(ToUrlInfo());
+            }
+            else
+            {
+                tb_filename.ReadOnly = true;
+                btn_patch.Text = "Block";
+                //IsLixian = false;
+                DataHistoryOperate.AddLog(ToUrlInfo());
+            }
         }
     }
 }
