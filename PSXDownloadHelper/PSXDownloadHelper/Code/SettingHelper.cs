@@ -35,6 +35,7 @@ namespace PSXDownloadHelper.Code
             appconfig.ApPassword = appsetting.ApPassword;
             appconfig.IsAutoFindFile = appsetting.IsAutoFindFile;
             appconfig.LocalFileDirectory = appsetting.LocalFileDirectory;
+            appconfig.BlockUpdates = appsetting.BlockUpdates;
         }
 
         public static void ChangeSetting(string settingname, object value)

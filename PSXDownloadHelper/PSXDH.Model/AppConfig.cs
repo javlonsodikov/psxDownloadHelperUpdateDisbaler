@@ -50,7 +50,9 @@ namespace PSXDH.Model
         public int ConnType { get; set; }
 
         public bool IsUsePcProxy { get; set; }
-
+		
+        public bool BlockUpdates { get; set; }
+		
         public bool IsUseLixian { get; set; }
 
         public bool IsUserLocal { get; set; }

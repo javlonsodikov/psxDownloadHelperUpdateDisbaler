@@ -1,8 +1,14 @@
 ﻿using System;
+using System.IO;
 using System.Drawing;
+using System.Text;
+using System.Net;
 using System.Net.NetworkInformation;
 using System.Resources;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using System.Threading;
+using System.Threading.Tasks;
 using PSXDH.BLL;
 using PSXDH.Model;
 
@@ -27,7 +33,78 @@ namespace PSXDownloadHelper
                 tb_psn.Text = value;
                 //lb_filename.Text = UrlOperate.GetUrlFileName(value);
                 tb_filename.Text = UrlOperate.GetUrlFileName(value);
+                if (AppConfig.Instance().BlockUpdates)
+                {
+                    Regex regex = new Regex(@"-A\d{4}-V\d{4}\.json");
+                    Match match = regex.Match(value);
+                    if (match.Success)
+                    {
+                        tb_filename.BackColor = Color.PaleGreen;
+                        LocalPath = System.Environment.CurrentDirectory + @"\Json\IP9100-CUSA00001_00-PLAYROOM00000000-A0102-V0100.json";
+                        tb_local.Text = LocalPath;
+                        var t = new Task(() =>
+                        {
+                            try
+                            {
+
+                                var webFile = GetWebContent(value);
+                                var localFile = GetFileData(@"Json\template.json");
+
+                                string pattern = "packageDigest\"\\:\"([0-9A-Z]){64}";
+
+                                Regex rgx = new Regex(pattern);
+                                Match replacement = rgx.Match(webFile);
+
+                                string result = rgx.Replace(localFile, replacement.Value);
+
+                                //save patched json for future use
+                                var sw = new StreamWriter(@"Json\" + tb_filename.Text + ".patched", false);
+                                sw.Write(result);
+                                sw.Close();
+
+                                //save original json for debugging
+                                sw = new StreamWriter(@"Json\" + tb_filename.Text, false);
+                                sw.Write(webFile);
+                                sw.Close();
+
+                            }
+                            catch
+                            {
+
+                            }
+                        });
+                        t.Start();
+
+
+                    }
+                }
             }
+        }
+
+        private static string GetFileData(string filename)
+        {
+            try
+            {
+
+                using (StreamReader sr = new StreamReader(filename))
+                {
+                    return sr.ReadToEnd();
+                }
+            }
+            catch (Exception e)
+            {
+                return "";
+            }
+
+        }
+
+        private static string GetWebContent(string url)
+        {
+            var wc = new WebClient { Credentials = CredentialCache.DefaultCredentials };
+            var enc = Encoding.GetEncoding("UTF-8");
+            var pageData = wc.DownloadData(url);
+            var strValue = enc.GetString(pageData);
+            return strValue;
         }
 
         public string LocalPath
@@ -126,13 +203,12 @@ namespace PSXDownloadHelper
         public UrlInfo ToUrlInfo()
         {
             var ui = new UrlInfo
-                {
-                    PsnUrl = PsnUrl,
-                    ReplacePath = LocalPath,
-                    MarkTxt = MarkTxt,
-                    LixianUrl = tb_lx.Text,
-                    IsLixian = !tb_lx.ReadOnly,
-                    Patch = !tb_filename.ReadOnly,
+            {
+                PsnUrl = PsnUrl,
+                ReplacePath = LocalPath,
+                MarkTxt = MarkTxt,
+                LixianUrl = tb_lx.Text,
+                IsLixian = !tb_lx.ReadOnly
             };
             return ui;
         }
@@ -249,30 +325,11 @@ namespace PSXDownloadHelper
 
         private void tb_psn_MouseEnter(object sender, EventArgs e)
         {
-            //lb_filename.Visible = true;
         }
 
         private void tb_psn_MouseLeave(object sender, EventArgs e)
         {
-            //lb_filename.Visible = false;
-        }
- 
-        private void btn_patch_Click(object sender, EventArgs e)
-        {
-            if (btn_patch.Text == "Block")
-            {
-                tb_filename.ReadOnly = false;
-                btn_patch.Text = "Unblock";
-                //IsLixian = true;
-                DataHistoryOperate.AddLog(ToUrlInfo());
-            }
-            else
-            {
-                tb_filename.ReadOnly = true;
-                btn_patch.Text = "Block";
-                //IsLixian = false;
-                DataHistoryOperate.AddLog(ToUrlInfo());
-            }
+
         }
     }
 }

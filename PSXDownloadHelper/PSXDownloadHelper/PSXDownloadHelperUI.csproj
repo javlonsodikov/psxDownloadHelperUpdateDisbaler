@@ -98,19 +98,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Include="CheckUpdate.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CheckUpdate.Designer.cs">
-      <DependentUpon>CheckUpdate.cs</DependentUpon>
-    </Compile>
     <Compile Include="Code\SettingHelper.cs" />
-    <Compile Include="Featuring.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Featuring.Designer.cs">
-      <DependentUpon>Featuring.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -142,26 +130,24 @@
     <Compile Include="WifiAp.Designer.cs">
       <DependentUpon>WifiAp.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CheckUpdate.resx">
-      <DependentUpon>CheckUpdate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Featuring.resx">
-      <DependentUpon>Featuring.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="LogWin.en.resx">
       <DependentUpon>LogWin.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="LogWin.pt-BR.resx">
       <DependentUpon>LogWin.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="LogWin.resx">
       <DependentUpon>LogWin.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="LogWin.zh-CHS.resx">
       <DependentUpon>LogWin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogWin.zh-CHT.resx">
       <DependentUpon>LogWin.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="ServerConfig.en.resx">
       <DependentUpon>ServerConfig.cs</DependentUpon>
@@ -220,28 +206,13 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>AppSettings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Extensions\fonts\basic.icons.eot">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Extensions\fonts\basic.icons.ttf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Extensions\fonts\basic.icons.woff">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Extensions\fonts\icons.eot">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Extensions\fonts\icons.otf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Extensions\fonts\icons.ttf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Extensions\fonts\icons.woff">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Hosts\CustomHosts.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Json\IP9100-CUSA00001_00-PLAYROOM00000000-A0102-V0100.pkg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Json\template.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Properties\Settings.settings">
@@ -273,58 +244,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Extensions\css\semantic.min.css">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\css\site.css">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\donations-by-alipay.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\donations-by-paypal.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\Featuring.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\fonts\basic.icons.svg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\fonts\icons.svg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\images\loader-large-inverted.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\images\loader-large.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\images\loader-medium-inverted.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\images\loader-medium.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\images\loader-mini-inverted.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\images\loader-mini.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\images\loader-small-inverted.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\images\loader-small.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\javascript\semantic.min.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="License\LICENSE.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="License\README.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\about.png" />
@@ -347,26 +267,14 @@
     <Content Include="DataFiles\DataHistory.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Extensions\images\donate-with-alipay.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Extensions\images\donate-with-paypal.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Resources\cdnstatus.gif" />
     <Content Include="Resources\help.png" />
-    <Content Include="Extensions\javascript\jquery-1.8.3.min.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Reference\MetroStyle.dll" />
     <Content Include="Resources\minus.png" />
     <Content Include="Resources\nocdn.png" />
     <Content Include="Resources\play.png" />
     <Content Include="Resources\setting.png" />
     <Content Include="Resources\stutas.gif" />
-    <Content Include="Extensions\weibo.htm">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Resources\wifi.png" />
   </ItemGroup>
   <ItemGroup>

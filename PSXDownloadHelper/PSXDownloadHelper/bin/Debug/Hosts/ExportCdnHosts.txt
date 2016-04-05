@@ -1,3 +1,4 @@
 #PSX Download Helper
 
 
+59.106.194.59 *.ugomemo.hatena.ne.jp

@@ -156,6 +156,7 @@
             this.ckb_pcp.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckb_pcp.Name = "ckb_pcp";
             this.ckb_pcp.UseVisualStyleBackColor = true;
+            this.ckb_pcp.CheckedChanged += new System.EventHandler(this.ckb_pcp_CheckedChanged);
             // 
             // tb_port
             // 
@@ -197,6 +198,7 @@
             resources.ApplyResources(this.ckb_cdn, "ckb_cdn");
             this.ckb_cdn.Name = "ckb_cdn";
             this.ckb_cdn.UseVisualStyleBackColor = true;
+            this.ckb_cdn.CheckedChanged += new System.EventHandler(this.ckb_cdn_CheckedChanged);
             // 
             // label1
             // 

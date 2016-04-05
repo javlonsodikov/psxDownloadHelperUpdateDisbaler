@@ -68,6 +68,7 @@ namespace PSXDownloadHelper
                 ckb_autoupdate.Checked = AppConfig.Instance().IsAutoCheckUpdate;
                 ckb_autofindfile.Checked = btn_findloaclfolder.Enabled = AppConfig.Instance().IsAutoFindFile;
                 lb_loaclfilefolder.Text = AppConfig.Instance().LocalFileDirectory;
+                BlockUpdates.Checked = AppConfig.Instance().BlockUpdates;
 
                 //离线设置
                 LixianCofig();
@@ -394,6 +395,7 @@ namespace PSXDownloadHelper
             AppConfig.Instance().IsDimrule = _setting.IsDimrule = ckb_mohu.Checked;
             AppConfig.Instance().IsUseCustomeHosts = _setting.IsUseCustomeHosts = ckb_usecustome.Checked;
             AppConfig.Instance().IsAutoFindFile = _setting.IsAutoFindFile = ckb_autofindfile.Checked;
+            AppConfig.Instance().BlockUpdates = _setting.BlockUpdates = BlockUpdates.Checked;
             AppConfig.Instance().LocalFileDirectory = _setting.LocalFileDirectory = lb_loaclfilefolder.Text;
             _setting.IsHideFrm = Ckb_HideFrm.Checked;
             _setting.Save();
@@ -467,8 +469,8 @@ namespace PSXDownloadHelper
             {
                 if (!string.IsNullOrEmpty(strValue))
                 {
-                    var cu = new CheckUpdate(strValue);
-                    cu.Show();
+                    //var cu = new CheckUpdate(strValue);
+                    //cu.Show();
                 }
                 else
                 {
@@ -793,8 +795,6 @@ namespace PSXDownloadHelper
 
         private void btn_featuring_Click(object sender, EventArgs e)
         {
-            var f1 = new Featuring();
-            f1.Show();
         }
 
     }

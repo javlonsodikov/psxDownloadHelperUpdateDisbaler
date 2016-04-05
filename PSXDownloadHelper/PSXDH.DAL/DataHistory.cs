@@ -63,8 +63,7 @@ namespace PSXDH.DAL
                                              new XElement("PsnUrl", urlinfo.PsnUrl),
                                              new XElement("LocalUrl", urlinfo.ReplacePath),
                                              new XElement("isLixian", urlinfo.IsLixian),
-                                             new XElement("LixianUrl", urlinfo.LixianUrl),
-                                             new XElement("Patch", urlinfo.Patch)
+                                             new XElement("LixianUrl", urlinfo.LixianUrl)
                     );
                 _datas.Add(psnrecord);
                 _datas.Save(Xmlpath);
@@ -91,7 +90,6 @@ namespace PSXDH.DAL
                 xe.SetElementValue("LocalUrl", urlinfo.ReplacePath);
                 xe.SetElementValue("isLixian", urlinfo.IsLixian);
                 xe.SetElementValue("LixianUrl", urlinfo.LixianUrl);
-                xe.SetElementValue("Patch", urlinfo.Patch);
                 _datas.Save(Xmlpath);
                 return true;
             }
@@ -141,14 +139,13 @@ namespace PSXDH.DAL
                 return null;
 
             var ui = new UrlInfo
-            {
-                PsnUrl = log.Element("PsnUrl").Value,
-                ReplacePath = log.Element("LocalUrl").Value,
-                MarkTxt = log.Element("Names").Value,
-                IsLixian = bool.Parse(log.Element("isLixian").Value),
-                LixianUrl = log.Element("LixianUrl").Value,
-                Patch = bool.Parse(log.Element("Patch").Value)
-            };
+                {
+                    PsnUrl = log.Element("PsnUrl").Value,
+                    ReplacePath = log.Element("LocalUrl").Value,
+                    MarkTxt = log.Element("Names").Value,
+                    IsLixian = bool.Parse(log.Element("isLixian").Value),
+                    LixianUrl = log.Element("LixianUrl").Value
+                };
             return ui;
         }
 
@@ -160,11 +157,9 @@ namespace PSXDH.DAL
         {
             List<UrlInfo> log = (from el in _datas.Elements("PsnRecord")
                                  select
-                                     new UrlInfo(el.Element("PsnUrl").Value, 
-                                     el.Element("LocalUrl").Value,
+                                     new UrlInfo(el.Element("PsnUrl").Value, el.Element("LocalUrl").Value,
                                                  el.Element("Names").Value, bool.Parse(el.Element("isLixian").Value),
-                                                 el.Element("LixianUrl").Value, bool.Parse(el.Element("Patch").Value)
-                                                 )).ToList();
+                                                 el.Element("LixianUrl").Value)).ToList();
             return log;
         }
 

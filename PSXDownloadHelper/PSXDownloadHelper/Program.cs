@@ -28,18 +28,18 @@ namespace PSXDownloadHelper
         {
             try
             {
-                var errorMsg = "程序运行过程中发生错误，错误信息如下:\n";
+                var errorMsg = "Error:\n";
                 errorMsg += args.Exception.Message;
-                errorMsg += "\n发生错误的程序集为:";
+                errorMsg += "\nSource:";
                 errorMsg += args.Exception.Source;
-                errorMsg += "\n发生错误的具体位置为:\n";
+                errorMsg += "\nStackTrace:\n";
                 errorMsg += args.Exception.StackTrace;
-                errorMsg += "\n\n 请抓取此错误屏幕，至项目主页进行反馈，感谢！";
-                MessageBox.Show(errorMsg, @"运行时错误", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                errorMsg += "\n\n Bla Bla！";
+                MessageBox.Show(errorMsg, @"Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch
             {
-                MessageBox.Show(@"系统运行时发生严重错误!", @"严重错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(@"Fatal error!", @"Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Application.Exit();
             }
         }

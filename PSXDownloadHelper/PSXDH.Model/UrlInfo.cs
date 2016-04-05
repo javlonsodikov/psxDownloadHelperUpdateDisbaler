@@ -8,7 +8,7 @@
             IsLixian = false;
         }
 
-        public UrlInfo(string psnurl, string replacepath, string marktxt, bool isLixian = false, string lixianurl = null, bool patch = false)
+        public UrlInfo(string psnurl, string replacepath, string marktxt, bool isLixian = false, string lixianurl = null)
         {
             SetLixian = false;
             PsnUrl = psnurl;
@@ -16,8 +16,6 @@
             MarkTxt = marktxt;
             LixianUrl = lixianurl;
             IsLixian = isLixian;
-            Patch = patch;
-
         }
 
         /// <summary>
@@ -49,8 +47,7 @@
         ///     增加为离线
         /// </summary>
         public bool SetLixian { get; set; }
-
-        public bool Patch { get; set; }
+        
         /// <summary>
         /// 是否为CDN地址
         /// </summary>

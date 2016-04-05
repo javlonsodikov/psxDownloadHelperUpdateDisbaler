@@ -48,6 +48,73 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.MaintabControl = new System.Windows.Forms.TabControl();
+            this.tabPage_log = new System.Windows.Forms.TabPage();
+            this.Btn_ExportCdn = new System.Windows.Forms.Button();
+            this.btn_editcdn = new System.Windows.Forms.Button();
+            this.pic_cdnsuccess = new System.Windows.Forms.PictureBox();
+            this.btn_CheckCdn = new System.Windows.Forms.Button();
+            this.label19 = new System.Windows.Forms.Label();
+            this.pic_cdnloading = new System.Windows.Forms.PictureBox();
+            this.flp_log = new System.Windows.Forms.FlowLayoutPanel();
+            this.alertLabel1 = new MetroStyle.AlertLabel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.tab_history = new System.Windows.Forms.TabPage();
+            this.flp_history = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_delall = new System.Windows.Forms.Button();
+            this.btn_showalllog = new System.Windows.Forms.Button();
+            this.tab_lixian = new System.Windows.Forms.TabPage();
+            this.label16 = new System.Windows.Forms.Label();
+            this.flp_lixian = new System.Windows.Forms.FlowLayoutPanel();
+            this.tab_lixianset = new System.Windows.Forms.TabPage();
+            this.btn_lxhelp = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn_lx2 = new System.Windows.Forms.Button();
+            this.ckb_lx2 = new System.Windows.Forms.CheckBox();
+            this.tb_host2 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.tb_lx2 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.tb_cookie2 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lb_alert = new System.Windows.Forms.Label();
+            this.btn_lx1 = new System.Windows.Forms.Button();
+            this.ckb_lx1 = new System.Windows.Forms.CheckBox();
+            this.tb_host1 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.tb_lx1 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.tb_cookie1 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.tabPage_set = new System.Windows.Forms.TabPage();
+            this.lb_loaclfilefolder = new System.Windows.Forms.Label();
+            this.btn_findloaclfolder = new System.Windows.Forms.Button();
+            this.ckb_autofindfile = new System.Windows.Forms.CheckBox();
+            this.link_translation = new System.Windows.Forms.LinkLabel();
+            this.ckb_usecustome = new System.Windows.Forms.CheckBox();
+            this.Ckb_HideFrm = new System.Windows.Forms.CheckBox();
+            this.ckb_mohu = new System.Windows.Forms.CheckBox();
+            this.alert_set = new MetroStyle.AlertLabel();
+            this.btn_savesetting = new System.Windows.Forms.Button();
+            this.btn_color = new System.Windows.Forms.Button();
+            this.ckb_autoupdate = new System.Windows.Forms.CheckBox();
+            this.cb_lg = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.flp_sp = new System.Windows.Forms.FlowLayoutPanel();
+            this.tb_rule = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.tabPage_about = new System.Windows.Forms.TabPage();
+            this.btn_featuring = new System.Windows.Forms.Button();
+            this.btn_checkupdate = new System.Windows.Forms.Button();
+            this.lb_copyright = new System.Windows.Forms.Label();
+            this.rtf_about = new System.Windows.Forms.RichTextBox();
+            this.webBrowser_weibo = new System.Windows.Forms.WebBrowser();
+            this.lb_vision = new System.Windows.Forms.Label();
+            this.lb_product = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.formSizeable1 = new MetroStyle.FormSizeable();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.CMS_EditMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -56,90 +123,24 @@
             this.menu_updatecdn = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_openservercdn = new System.Windows.Forms.ToolStripMenuItem();
             this.fbd_localfilefolder = new System.Windows.Forms.FolderBrowserDialog();
-            this.tabPage_about = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.webBrowser_weibo = new System.Windows.Forms.WebBrowser();
-            this.lb_product = new System.Windows.Forms.Label();
-            this.lb_vision = new System.Windows.Forms.Label();
-            this.rtf_about = new System.Windows.Forms.RichTextBox();
-            this.lb_copyright = new System.Windows.Forms.Label();
-            this.btn_checkupdate = new System.Windows.Forms.Button();
-            this.btn_featuring = new System.Windows.Forms.Button();
-            this.tabPage_set = new System.Windows.Forms.TabPage();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tb_rule = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.cb_lg = new System.Windows.Forms.ComboBox();
-            this.ckb_autoupdate = new System.Windows.Forms.CheckBox();
-            this.btn_color = new System.Windows.Forms.Button();
-            this.flp_sp = new System.Windows.Forms.FlowLayoutPanel();
-            this.btn_savesetting = new System.Windows.Forms.Button();
-            this.alert_set = new MetroStyle.AlertLabel();
-            this.ckb_mohu = new System.Windows.Forms.CheckBox();
-            this.Ckb_HideFrm = new System.Windows.Forms.CheckBox();
-            this.ckb_usecustome = new System.Windows.Forms.CheckBox();
-            this.link_translation = new System.Windows.Forms.LinkLabel();
-            this.ckb_autofindfile = new System.Windows.Forms.CheckBox();
-            this.btn_findloaclfolder = new System.Windows.Forms.Button();
-            this.lb_loaclfilefolder = new System.Windows.Forms.Label();
-            this.tab_lixianset = new System.Windows.Forms.TabPage();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.tb_cookie1 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.tb_lx1 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.tb_host1 = new System.Windows.Forms.TextBox();
-            this.ckb_lx1 = new System.Windows.Forms.CheckBox();
-            this.btn_lx1 = new System.Windows.Forms.Button();
-            this.lb_alert = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.tb_cookie2 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.tb_lx2 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.tb_host2 = new System.Windows.Forms.TextBox();
-            this.ckb_lx2 = new System.Windows.Forms.CheckBox();
-            this.btn_lx2 = new System.Windows.Forms.Button();
-            this.btn_lxhelp = new System.Windows.Forms.Button();
-            this.tab_lixian = new System.Windows.Forms.TabPage();
-            this.flp_lixian = new System.Windows.Forms.FlowLayoutPanel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.tab_history = new System.Windows.Forms.TabPage();
-            this.btn_showalllog = new System.Windows.Forms.Button();
-            this.btn_delall = new System.Windows.Forms.Button();
-            this.flp_history = new System.Windows.Forms.FlowLayoutPanel();
-            this.tabPage_log = new System.Windows.Forms.TabPage();
-            this.label20 = new System.Windows.Forms.Label();
-            this.flp_log = new System.Windows.Forms.FlowLayoutPanel();
-            this.alertLabel1 = new MetroStyle.AlertLabel();
-            this.pic_cdnloading = new System.Windows.Forms.PictureBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.btn_CheckCdn = new System.Windows.Forms.Button();
-            this.pic_cdnsuccess = new System.Windows.Forms.PictureBox();
-            this.btn_editcdn = new System.Windows.Forms.Button();
-            this.Btn_ExportCdn = new System.Windows.Forms.Button();
-            this.MaintabControl = new System.Windows.Forms.TabControl();
+            this.BlockUpdates = new System.Windows.Forms.CheckBox();
             this.mainPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_ap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
-            this.CMS_EditMenu.SuspendLayout();
+            this.MaintabControl.SuspendLayout();
+            this.tabPage_log.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_cdnsuccess)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_cdnloading)).BeginInit();
+            this.flp_log.SuspendLayout();
+            this.tab_history.SuspendLayout();
+            this.tab_lixian.SuspendLayout();
+            this.tab_lixianset.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.tabPage_set.SuspendLayout();
             this.tabPage_about.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPage_set.SuspendLayout();
-            this.tab_lixianset.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.tab_lixian.SuspendLayout();
-            this.tab_history.SuspendLayout();
-            this.tabPage_log.SuspendLayout();
-            this.flp_log.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_cdnloading)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_cdnsuccess)).BeginInit();
-            this.MaintabControl.SuspendLayout();
+            this.CMS_EditMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer_alert
@@ -298,6 +299,502 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Name = "label7";
             // 
+            // MaintabControl
+            // 
+            resources.ApplyResources(this.MaintabControl, "MaintabControl");
+            this.MaintabControl.Controls.Add(this.tabPage_log);
+            this.MaintabControl.Controls.Add(this.tab_history);
+            this.MaintabControl.Controls.Add(this.tab_lixian);
+            this.MaintabControl.Controls.Add(this.tab_lixianset);
+            this.MaintabControl.Controls.Add(this.tabPage_set);
+            this.MaintabControl.Controls.Add(this.tabPage_about);
+            this.MaintabControl.Name = "MaintabControl";
+            this.MaintabControl.SelectedIndex = 0;
+            this.MaintabControl.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            // 
+            // tabPage_log
+            // 
+            this.tabPage_log.Controls.Add(this.Btn_ExportCdn);
+            this.tabPage_log.Controls.Add(this.btn_editcdn);
+            this.tabPage_log.Controls.Add(this.pic_cdnsuccess);
+            this.tabPage_log.Controls.Add(this.btn_CheckCdn);
+            this.tabPage_log.Controls.Add(this.label19);
+            this.tabPage_log.Controls.Add(this.pic_cdnloading);
+            this.tabPage_log.Controls.Add(this.flp_log);
+            this.tabPage_log.Controls.Add(this.label20);
+            resources.ApplyResources(this.tabPage_log, "tabPage_log");
+            this.tabPage_log.Name = "tabPage_log";
+            this.tabPage_log.UseVisualStyleBackColor = true;
+            // 
+            // Btn_ExportCdn
+            // 
+            resources.ApplyResources(this.Btn_ExportCdn, "Btn_ExportCdn");
+            this.Btn_ExportCdn.Name = "Btn_ExportCdn";
+            this.Btn_ExportCdn.UseVisualStyleBackColor = true;
+            this.Btn_ExportCdn.Click += new System.EventHandler(this.Btn_ExportCdn_Click);
+            // 
+            // btn_editcdn
+            // 
+            resources.ApplyResources(this.btn_editcdn, "btn_editcdn");
+            this.btn_editcdn.Name = "btn_editcdn";
+            this.btn_editcdn.UseVisualStyleBackColor = true;
+            this.btn_editcdn.Click += new System.EventHandler(this.btn_editcdn_Click);
+            // 
+            // pic_cdnsuccess
+            // 
+            this.pic_cdnsuccess.Image = global::PSXDownloadHelper.Properties.Resources.play;
+            resources.ApplyResources(this.pic_cdnsuccess, "pic_cdnsuccess");
+            this.pic_cdnsuccess.Name = "pic_cdnsuccess";
+            this.pic_cdnsuccess.TabStop = false;
+            this.toolTip1.SetToolTip(this.pic_cdnsuccess, resources.GetString("pic_cdnsuccess.ToolTip"));
+            // 
+            // btn_CheckCdn
+            // 
+            resources.ApplyResources(this.btn_CheckCdn, "btn_CheckCdn");
+            this.btn_CheckCdn.Name = "btn_CheckCdn";
+            this.btn_CheckCdn.UseVisualStyleBackColor = true;
+            this.btn_CheckCdn.Click += new System.EventHandler(this.btn_CheckCdn_Click);
+            // 
+            // label19
+            // 
+            resources.ApplyResources(this.label19, "label19");
+            this.label19.Name = "label19";
+            this.toolTip1.SetToolTip(this.label19, resources.GetString("label19.ToolTip"));
+            // 
+            // pic_cdnloading
+            // 
+            this.pic_cdnloading.Image = global::PSXDownloadHelper.Properties.Resources.cdnloading;
+            resources.ApplyResources(this.pic_cdnloading, "pic_cdnloading");
+            this.pic_cdnloading.Name = "pic_cdnloading";
+            this.pic_cdnloading.TabStop = false;
+            this.toolTip1.SetToolTip(this.pic_cdnloading, resources.GetString("pic_cdnloading.ToolTip"));
+            // 
+            // flp_log
+            // 
+            this.flp_log.AllowDrop = true;
+            resources.ApplyResources(this.flp_log, "flp_log");
+            this.flp_log.Controls.Add(this.alertLabel1);
+            this.flp_log.Name = "flp_log";
+            // 
+            // alertLabel1
+            // 
+            resources.ApplyResources(this.alertLabel1, "alertLabel1");
+            this.alertLabel1.BackColor = System.Drawing.Color.Orange;
+            this.alertLabel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.alertLabel1.left = 0;
+            this.alertLabel1.MainForm = null;
+            this.alertLabel1.Name = "alertLabel1";
+            this.alertLabel1.ShowInMiddle = false;
+            this.alertLabel1.TimeShow = 10000;
+            this.alertLabel1.top = 0;
+            // 
+            // label20
+            // 
+            resources.ApplyResources(this.label20, "label20");
+            this.label20.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label20.Name = "label20";
+            // 
+            // tab_history
+            // 
+            this.tab_history.Controls.Add(this.flp_history);
+            this.tab_history.Controls.Add(this.btn_delall);
+            this.tab_history.Controls.Add(this.btn_showalllog);
+            resources.ApplyResources(this.tab_history, "tab_history");
+            this.tab_history.Name = "tab_history";
+            this.tab_history.UseVisualStyleBackColor = true;
+            // 
+            // flp_history
+            // 
+            this.flp_history.AllowDrop = true;
+            resources.ApplyResources(this.flp_history, "flp_history");
+            this.flp_history.Name = "flp_history";
+            // 
+            // btn_delall
+            // 
+            resources.ApplyResources(this.btn_delall, "btn_delall");
+            this.btn_delall.Name = "btn_delall";
+            this.btn_delall.UseVisualStyleBackColor = true;
+            this.btn_delall.Click += new System.EventHandler(this.btn_delall_Click);
+            // 
+            // btn_showalllog
+            // 
+            resources.ApplyResources(this.btn_showalllog, "btn_showalllog");
+            this.btn_showalllog.Name = "btn_showalllog";
+            this.btn_showalllog.UseVisualStyleBackColor = true;
+            this.btn_showalllog.Click += new System.EventHandler(this.btn_showalllog_Click);
+            // 
+            // tab_lixian
+            // 
+            this.tab_lixian.Controls.Add(this.label16);
+            this.tab_lixian.Controls.Add(this.flp_lixian);
+            resources.ApplyResources(this.tab_lixian, "tab_lixian");
+            this.tab_lixian.Name = "tab_lixian";
+            this.tab_lixian.UseVisualStyleBackColor = true;
+            // 
+            // label16
+            // 
+            resources.ApplyResources(this.label16, "label16");
+            this.label16.Name = "label16";
+            // 
+            // flp_lixian
+            // 
+            resources.ApplyResources(this.flp_lixian, "flp_lixian");
+            this.flp_lixian.Name = "flp_lixian";
+            // 
+            // tab_lixianset
+            // 
+            this.tab_lixianset.Controls.Add(this.btn_lxhelp);
+            this.tab_lixianset.Controls.Add(this.groupBox2);
+            this.tab_lixianset.Controls.Add(this.groupBox1);
+            resources.ApplyResources(this.tab_lixianset, "tab_lixianset");
+            this.tab_lixianset.Name = "tab_lixianset";
+            this.tab_lixianset.UseVisualStyleBackColor = true;
+            // 
+            // btn_lxhelp
+            // 
+            resources.ApplyResources(this.btn_lxhelp, "btn_lxhelp");
+            this.btn_lxhelp.Name = "btn_lxhelp";
+            this.btn_lxhelp.UseVisualStyleBackColor = true;
+            this.btn_lxhelp.Click += new System.EventHandler(this.btn_lxhelp_Click);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btn_lx2);
+            this.groupBox2.Controls.Add(this.ckb_lx2);
+            this.groupBox2.Controls.Add(this.tb_host2);
+            this.groupBox2.Controls.Add(this.label13);
+            this.groupBox2.Controls.Add(this.tb_lx2);
+            this.groupBox2.Controls.Add(this.label15);
+            this.groupBox2.Controls.Add(this.tb_cookie2);
+            this.groupBox2.Controls.Add(this.label14);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
+            // 
+            // btn_lx2
+            // 
+            resources.ApplyResources(this.btn_lx2, "btn_lx2");
+            this.btn_lx2.Name = "btn_lx2";
+            this.btn_lx2.UseVisualStyleBackColor = true;
+            this.btn_lx2.Click += new System.EventHandler(this.btn_lx2_Click);
+            // 
+            // ckb_lx2
+            // 
+            resources.ApplyResources(this.ckb_lx2, "ckb_lx2");
+            this.ckb_lx2.Name = "ckb_lx2";
+            this.ckb_lx2.UseVisualStyleBackColor = true;
+            this.ckb_lx2.CheckedChanged += new System.EventHandler(this.ckb_lx2_CheckedChanged);
+            // 
+            // tb_host2
+            // 
+            resources.ApplyResources(this.tb_host2, "tb_host2");
+            this.tb_host2.Name = "tb_host2";
+            // 
+            // label13
+            // 
+            resources.ApplyResources(this.label13, "label13");
+            this.label13.Name = "label13";
+            // 
+            // tb_lx2
+            // 
+            resources.ApplyResources(this.tb_lx2, "tb_lx2");
+            this.tb_lx2.Name = "tb_lx2";
+            // 
+            // label15
+            // 
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.Name = "label15";
+            // 
+            // tb_cookie2
+            // 
+            resources.ApplyResources(this.tb_cookie2, "tb_cookie2");
+            this.tb_cookie2.Name = "tb_cookie2";
+            // 
+            // label14
+            // 
+            resources.ApplyResources(this.label14, "label14");
+            this.label14.Name = "label14";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.lb_alert);
+            this.groupBox1.Controls.Add(this.btn_lx1);
+            this.groupBox1.Controls.Add(this.ckb_lx1);
+            this.groupBox1.Controls.Add(this.tb_host1);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.tb_lx1);
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.tb_cookie1);
+            this.groupBox1.Controls.Add(this.label10);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // lb_alert
+            // 
+            resources.ApplyResources(this.lb_alert, "lb_alert");
+            this.lb_alert.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.lb_alert.ForeColor = System.Drawing.Color.White;
+            this.lb_alert.Name = "lb_alert";
+            // 
+            // btn_lx1
+            // 
+            resources.ApplyResources(this.btn_lx1, "btn_lx1");
+            this.btn_lx1.Name = "btn_lx1";
+            this.btn_lx1.UseVisualStyleBackColor = true;
+            this.btn_lx1.Click += new System.EventHandler(this.btn_lx1_Click);
+            // 
+            // ckb_lx1
+            // 
+            resources.ApplyResources(this.ckb_lx1, "ckb_lx1");
+            this.ckb_lx1.Name = "ckb_lx1";
+            this.ckb_lx1.UseVisualStyleBackColor = true;
+            this.ckb_lx1.CheckedChanged += new System.EventHandler(this.ckb_lx1_CheckedChanged);
+            // 
+            // tb_host1
+            // 
+            resources.ApplyResources(this.tb_host1, "tb_host1");
+            this.tb_host1.Name = "tb_host1";
+            // 
+            // label12
+            // 
+            resources.ApplyResources(this.label12, "label12");
+            this.label12.Name = "label12";
+            // 
+            // tb_lx1
+            // 
+            resources.ApplyResources(this.tb_lx1, "tb_lx1");
+            this.tb_lx1.Name = "tb_lx1";
+            // 
+            // label11
+            // 
+            resources.ApplyResources(this.label11, "label11");
+            this.label11.Name = "label11";
+            // 
+            // tb_cookie1
+            // 
+            resources.ApplyResources(this.tb_cookie1, "tb_cookie1");
+            this.tb_cookie1.Name = "tb_cookie1";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.Name = "label10";
+            // 
+            // tabPage_set
+            // 
+            this.tabPage_set.Controls.Add(this.BlockUpdates);
+            this.tabPage_set.Controls.Add(this.lb_loaclfilefolder);
+            this.tabPage_set.Controls.Add(this.btn_findloaclfolder);
+            this.tabPage_set.Controls.Add(this.ckb_autofindfile);
+            this.tabPage_set.Controls.Add(this.link_translation);
+            this.tabPage_set.Controls.Add(this.ckb_usecustome);
+            this.tabPage_set.Controls.Add(this.Ckb_HideFrm);
+            this.tabPage_set.Controls.Add(this.ckb_mohu);
+            this.tabPage_set.Controls.Add(this.alert_set);
+            this.tabPage_set.Controls.Add(this.btn_savesetting);
+            this.tabPage_set.Controls.Add(this.btn_color);
+            this.tabPage_set.Controls.Add(this.ckb_autoupdate);
+            this.tabPage_set.Controls.Add(this.cb_lg);
+            this.tabPage_set.Controls.Add(this.label5);
+            this.tabPage_set.Controls.Add(this.label1);
+            this.tabPage_set.Controls.Add(this.flp_sp);
+            this.tabPage_set.Controls.Add(this.tb_rule);
+            this.tabPage_set.Controls.Add(this.label3);
+            this.tabPage_set.Controls.Add(this.label18);
+            resources.ApplyResources(this.tabPage_set, "tabPage_set");
+            this.tabPage_set.Name = "tabPage_set";
+            this.tabPage_set.UseVisualStyleBackColor = true;
+            // 
+            // lb_loaclfilefolder
+            // 
+            this.lb_loaclfilefolder.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            resources.ApplyResources(this.lb_loaclfilefolder, "lb_loaclfilefolder");
+            this.lb_loaclfilefolder.Name = "lb_loaclfilefolder";
+            // 
+            // btn_findloaclfolder
+            // 
+            resources.ApplyResources(this.btn_findloaclfolder, "btn_findloaclfolder");
+            this.btn_findloaclfolder.Name = "btn_findloaclfolder";
+            this.btn_findloaclfolder.UseVisualStyleBackColor = true;
+            this.btn_findloaclfolder.Click += new System.EventHandler(this.btn_findloaclfolder_Click);
+            // 
+            // ckb_autofindfile
+            // 
+            resources.ApplyResources(this.ckb_autofindfile, "ckb_autofindfile");
+            this.ckb_autofindfile.Name = "ckb_autofindfile";
+            this.ckb_autofindfile.UseVisualStyleBackColor = true;
+            this.ckb_autofindfile.CheckedChanged += new System.EventHandler(this.ckb_autofindfile_CheckedChanged);
+            // 
+            // link_translation
+            // 
+            resources.ApplyResources(this.link_translation, "link_translation");
+            this.link_translation.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.link_translation.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.link_translation.LinkColor = System.Drawing.Color.DarkCyan;
+            this.link_translation.Name = "link_translation";
+            this.link_translation.TabStop = true;
+            this.link_translation.VisitedLinkColor = System.Drawing.Color.DarkCyan;
+            this.link_translation.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_translation_LinkClicked);
+            // 
+            // ckb_usecustome
+            // 
+            resources.ApplyResources(this.ckb_usecustome, "ckb_usecustome");
+            this.ckb_usecustome.Name = "ckb_usecustome";
+            this.ckb_usecustome.UseVisualStyleBackColor = true;
+            // 
+            // Ckb_HideFrm
+            // 
+            resources.ApplyResources(this.Ckb_HideFrm, "Ckb_HideFrm");
+            this.Ckb_HideFrm.Name = "Ckb_HideFrm";
+            this.Ckb_HideFrm.UseVisualStyleBackColor = true;
+            // 
+            // ckb_mohu
+            // 
+            resources.ApplyResources(this.ckb_mohu, "ckb_mohu");
+            this.ckb_mohu.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ckb_mohu.Name = "ckb_mohu";
+            this.ckb_mohu.UseVisualStyleBackColor = true;
+            // 
+            // alert_set
+            // 
+            resources.ApplyResources(this.alert_set, "alert_set");
+            this.alert_set.BackColor = System.Drawing.Color.Orange;
+            this.alert_set.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.alert_set.left = 0;
+            this.alert_set.MainForm = null;
+            this.alert_set.Name = "alert_set";
+            this.alert_set.ShowInMiddle = false;
+            this.alert_set.TimeShow = 2000;
+            this.alert_set.top = 0;
+            // 
+            // btn_savesetting
+            // 
+            resources.ApplyResources(this.btn_savesetting, "btn_savesetting");
+            this.btn_savesetting.Name = "btn_savesetting";
+            this.btn_savesetting.UseVisualStyleBackColor = true;
+            this.btn_savesetting.Click += new System.EventHandler(this.btn_savesetting_Click);
+            // 
+            // btn_color
+            // 
+            resources.ApplyResources(this.btn_color, "btn_color");
+            this.btn_color.Name = "btn_color";
+            this.btn_color.UseVisualStyleBackColor = true;
+            this.btn_color.Click += new System.EventHandler(this.btn_color_Click);
+            // 
+            // ckb_autoupdate
+            // 
+            resources.ApplyResources(this.ckb_autoupdate, "ckb_autoupdate");
+            this.ckb_autoupdate.Name = "ckb_autoupdate";
+            this.ckb_autoupdate.UseVisualStyleBackColor = true;
+            // 
+            // cb_lg
+            // 
+            this.cb_lg.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_lg.FormattingEnabled = true;
+            this.cb_lg.Items.AddRange(new object[] {
+            resources.GetString("cb_lg.Items"),
+            resources.GetString("cb_lg.Items1"),
+            resources.GetString("cb_lg.Items2"),
+            resources.GetString("cb_lg.Items3")});
+            resources.ApplyResources(this.cb_lg, "cb_lg");
+            this.cb_lg.Name = "cb_lg";
+            this.cb_lg.SelectedIndexChanged += new System.EventHandler(this.cb_lg_SelectedIndexChanged);
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // flp_sp
+            // 
+            resources.ApplyResources(this.flp_sp, "flp_sp");
+            this.flp_sp.Name = "flp_sp";
+            // 
+            // tb_rule
+            // 
+            resources.ApplyResources(this.tb_rule, "tb_rule");
+            this.tb_rule.Name = "tb_rule";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // label18
+            // 
+            resources.ApplyResources(this.label18, "label18");
+            this.label18.Name = "label18";
+            // 
+            // tabPage_about
+            // 
+            this.tabPage_about.Controls.Add(this.btn_featuring);
+            this.tabPage_about.Controls.Add(this.btn_checkupdate);
+            this.tabPage_about.Controls.Add(this.lb_copyright);
+            this.tabPage_about.Controls.Add(this.rtf_about);
+            this.tabPage_about.Controls.Add(this.webBrowser_weibo);
+            this.tabPage_about.Controls.Add(this.lb_vision);
+            this.tabPage_about.Controls.Add(this.lb_product);
+            this.tabPage_about.Controls.Add(this.pictureBox1);
+            resources.ApplyResources(this.tabPage_about, "tabPage_about");
+            this.tabPage_about.Name = "tabPage_about";
+            this.tabPage_about.UseVisualStyleBackColor = true;
+            // 
+            // btn_featuring
+            // 
+            resources.ApplyResources(this.btn_featuring, "btn_featuring");
+            this.btn_featuring.Name = "btn_featuring";
+            this.btn_featuring.UseVisualStyleBackColor = true;
+            this.btn_featuring.Click += new System.EventHandler(this.btn_featuring_Click);
+            // 
+            // btn_checkupdate
+            // 
+            resources.ApplyResources(this.btn_checkupdate, "btn_checkupdate");
+            this.btn_checkupdate.Name = "btn_checkupdate";
+            this.btn_checkupdate.UseVisualStyleBackColor = true;
+            this.btn_checkupdate.Click += new System.EventHandler(this.btn_checkupdate_Click);
+            // 
+            // lb_copyright
+            // 
+            resources.ApplyResources(this.lb_copyright, "lb_copyright");
+            this.lb_copyright.Name = "lb_copyright";
+            // 
+            // rtf_about
+            // 
+            resources.ApplyResources(this.rtf_about, "rtf_about");
+            this.rtf_about.BackColor = System.Drawing.Color.White;
+            this.rtf_about.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtf_about.Name = "rtf_about";
+            this.rtf_about.ReadOnly = true;
+            // 
+            // webBrowser_weibo
+            // 
+            resources.ApplyResources(this.webBrowser_weibo, "webBrowser_weibo");
+            this.webBrowser_weibo.Name = "webBrowser_weibo";
+            this.webBrowser_weibo.ScrollBarsEnabled = false;
+            // 
+            // lb_vision
+            // 
+            resources.ApplyResources(this.lb_vision, "lb_vision");
+            this.lb_vision.Name = "lb_vision";
+            // 
+            // lb_product
+            // 
+            resources.ApplyResources(this.lb_product, "lb_product");
+            this.lb_product.Name = "lb_product";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PSXDownloadHelper.Properties.Resources.AppIco;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
             // formSizeable1
             // 
             resources.ApplyResources(this.formSizeable1, "formSizeable1");
@@ -342,499 +839,11 @@
             resources.ApplyResources(this.menu_openservercdn, "menu_openservercdn");
             this.menu_openservercdn.Click += new System.EventHandler(this.menu_openservercdn_Click);
             // 
-            // tabPage_about
-            // 
-            this.tabPage_about.Controls.Add(this.btn_featuring);
-            this.tabPage_about.Controls.Add(this.btn_checkupdate);
-            this.tabPage_about.Controls.Add(this.lb_copyright);
-            this.tabPage_about.Controls.Add(this.rtf_about);
-            this.tabPage_about.Controls.Add(this.webBrowser_weibo);
-            this.tabPage_about.Controls.Add(this.lb_vision);
-            this.tabPage_about.Controls.Add(this.lb_product);
-            this.tabPage_about.Controls.Add(this.pictureBox1);
-            resources.ApplyResources(this.tabPage_about, "tabPage_about");
-            this.tabPage_about.Name = "tabPage_about";
-            this.tabPage_about.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PSXDownloadHelper.Properties.Resources.AppIco;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
-            // webBrowser_weibo
-            // 
-            resources.ApplyResources(this.webBrowser_weibo, "webBrowser_weibo");
-            this.webBrowser_weibo.Name = "webBrowser_weibo";
-            this.webBrowser_weibo.ScrollBarsEnabled = false;
-            // 
-            // lb_product
-            // 
-            resources.ApplyResources(this.lb_product, "lb_product");
-            this.lb_product.Name = "lb_product";
-            // 
-            // lb_vision
-            // 
-            resources.ApplyResources(this.lb_vision, "lb_vision");
-            this.lb_vision.Name = "lb_vision";
-            // 
-            // rtf_about
-            // 
-            resources.ApplyResources(this.rtf_about, "rtf_about");
-            this.rtf_about.BackColor = System.Drawing.Color.White;
-            this.rtf_about.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtf_about.Name = "rtf_about";
-            this.rtf_about.ReadOnly = true;
-            // 
-            // lb_copyright
-            // 
-            resources.ApplyResources(this.lb_copyright, "lb_copyright");
-            this.lb_copyright.Name = "lb_copyright";
-            // 
-            // btn_checkupdate
-            // 
-            resources.ApplyResources(this.btn_checkupdate, "btn_checkupdate");
-            this.btn_checkupdate.Name = "btn_checkupdate";
-            this.btn_checkupdate.UseVisualStyleBackColor = true;
-            this.btn_checkupdate.Click += new System.EventHandler(this.btn_checkupdate_Click);
-            // 
-            // btn_featuring
-            // 
-            resources.ApplyResources(this.btn_featuring, "btn_featuring");
-            this.btn_featuring.Name = "btn_featuring";
-            this.btn_featuring.UseVisualStyleBackColor = true;
-            this.btn_featuring.Click += new System.EventHandler(this.btn_featuring_Click);
-            // 
-            // tabPage_set
-            // 
-            this.tabPage_set.Controls.Add(this.lb_loaclfilefolder);
-            this.tabPage_set.Controls.Add(this.btn_findloaclfolder);
-            this.tabPage_set.Controls.Add(this.ckb_autofindfile);
-            this.tabPage_set.Controls.Add(this.link_translation);
-            this.tabPage_set.Controls.Add(this.ckb_usecustome);
-            this.tabPage_set.Controls.Add(this.Ckb_HideFrm);
-            this.tabPage_set.Controls.Add(this.ckb_mohu);
-            this.tabPage_set.Controls.Add(this.alert_set);
-            this.tabPage_set.Controls.Add(this.btn_savesetting);
-            this.tabPage_set.Controls.Add(this.btn_color);
-            this.tabPage_set.Controls.Add(this.ckb_autoupdate);
-            this.tabPage_set.Controls.Add(this.cb_lg);
-            this.tabPage_set.Controls.Add(this.label5);
-            this.tabPage_set.Controls.Add(this.label1);
-            this.tabPage_set.Controls.Add(this.flp_sp);
-            this.tabPage_set.Controls.Add(this.tb_rule);
-            this.tabPage_set.Controls.Add(this.label3);
-            this.tabPage_set.Controls.Add(this.label18);
-            resources.ApplyResources(this.tabPage_set, "tabPage_set");
-            this.tabPage_set.Name = "tabPage_set";
-            this.tabPage_set.UseVisualStyleBackColor = true;
-            // 
-            // label18
-            // 
-            resources.ApplyResources(this.label18, "label18");
-            this.label18.Name = "label18";
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
-            // 
-            // tb_rule
-            // 
-            resources.ApplyResources(this.tb_rule, "tb_rule");
-            this.tb_rule.Name = "tb_rule";
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
-            // label5
-            // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
-            // 
-            // cb_lg
-            // 
-            this.cb_lg.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cb_lg.FormattingEnabled = true;
-            this.cb_lg.Items.AddRange(new object[] {
-            resources.GetString("cb_lg.Items"),
-            resources.GetString("cb_lg.Items1"),
-            resources.GetString("cb_lg.Items2"),
-            resources.GetString("cb_lg.Items3")});
-            resources.ApplyResources(this.cb_lg, "cb_lg");
-            this.cb_lg.Name = "cb_lg";
-            this.cb_lg.SelectedIndexChanged += new System.EventHandler(this.cb_lg_SelectedIndexChanged);
-            // 
-            // ckb_autoupdate
-            // 
-            resources.ApplyResources(this.ckb_autoupdate, "ckb_autoupdate");
-            this.ckb_autoupdate.Name = "ckb_autoupdate";
-            this.ckb_autoupdate.UseVisualStyleBackColor = true;
-            // 
-            // btn_color
-            // 
-            resources.ApplyResources(this.btn_color, "btn_color");
-            this.btn_color.Name = "btn_color";
-            this.btn_color.UseVisualStyleBackColor = true;
-            this.btn_color.Click += new System.EventHandler(this.btn_color_Click);
-            // 
-            // flp_sp
-            // 
-            resources.ApplyResources(this.flp_sp, "flp_sp");
-            this.flp_sp.Name = "flp_sp";
-            // 
-            // btn_savesetting
-            // 
-            resources.ApplyResources(this.btn_savesetting, "btn_savesetting");
-            this.btn_savesetting.Name = "btn_savesetting";
-            this.btn_savesetting.UseVisualStyleBackColor = true;
-            this.btn_savesetting.Click += new System.EventHandler(this.btn_savesetting_Click);
-            // 
-            // alert_set
-            // 
-            resources.ApplyResources(this.alert_set, "alert_set");
-            this.alert_set.BackColor = System.Drawing.Color.Orange;
-            this.alert_set.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.alert_set.left = 0;
-            this.alert_set.MainForm = null;
-            this.alert_set.Name = "alert_set";
-            this.alert_set.ShowInMiddle = false;
-            this.alert_set.TimeShow = 2000;
-            this.alert_set.top = 0;
-            // 
-            // ckb_mohu
-            // 
-            resources.ApplyResources(this.ckb_mohu, "ckb_mohu");
-            this.ckb_mohu.Name = "ckb_mohu";
-            this.ckb_mohu.UseVisualStyleBackColor = true;
-            // 
-            // Ckb_HideFrm
-            // 
-            resources.ApplyResources(this.Ckb_HideFrm, "Ckb_HideFrm");
-            this.Ckb_HideFrm.Name = "Ckb_HideFrm";
-            this.Ckb_HideFrm.UseVisualStyleBackColor = true;
-            // 
-            // ckb_usecustome
-            // 
-            resources.ApplyResources(this.ckb_usecustome, "ckb_usecustome");
-            this.ckb_usecustome.Name = "ckb_usecustome";
-            this.ckb_usecustome.UseVisualStyleBackColor = true;
-            // 
-            // link_translation
-            // 
-            resources.ApplyResources(this.link_translation, "link_translation");
-            this.link_translation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.link_translation.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.link_translation.LinkColor = System.Drawing.Color.DarkCyan;
-            this.link_translation.Name = "link_translation";
-            this.link_translation.TabStop = true;
-            this.link_translation.VisitedLinkColor = System.Drawing.Color.DarkCyan;
-            this.link_translation.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_translation_LinkClicked);
-            // 
-            // ckb_autofindfile
-            // 
-            resources.ApplyResources(this.ckb_autofindfile, "ckb_autofindfile");
-            this.ckb_autofindfile.Name = "ckb_autofindfile";
-            this.ckb_autofindfile.UseVisualStyleBackColor = true;
-            this.ckb_autofindfile.CheckedChanged += new System.EventHandler(this.ckb_autofindfile_CheckedChanged);
-            // 
-            // btn_findloaclfolder
-            // 
-            resources.ApplyResources(this.btn_findloaclfolder, "btn_findloaclfolder");
-            this.btn_findloaclfolder.Name = "btn_findloaclfolder";
-            this.btn_findloaclfolder.UseVisualStyleBackColor = true;
-            this.btn_findloaclfolder.Click += new System.EventHandler(this.btn_findloaclfolder_Click);
-            // 
-            // lb_loaclfilefolder
-            // 
-            this.lb_loaclfilefolder.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            resources.ApplyResources(this.lb_loaclfilefolder, "lb_loaclfilefolder");
-            this.lb_loaclfilefolder.Name = "lb_loaclfilefolder";
-            // 
-            // tab_lixianset
-            // 
-            this.tab_lixianset.Controls.Add(this.btn_lxhelp);
-            this.tab_lixianset.Controls.Add(this.groupBox2);
-            this.tab_lixianset.Controls.Add(this.groupBox1);
-            resources.ApplyResources(this.tab_lixianset, "tab_lixianset");
-            this.tab_lixianset.Name = "tab_lixianset";
-            this.tab_lixianset.UseVisualStyleBackColor = true;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.lb_alert);
-            this.groupBox1.Controls.Add(this.btn_lx1);
-            this.groupBox1.Controls.Add(this.ckb_lx1);
-            this.groupBox1.Controls.Add(this.tb_host1);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.tb_lx1);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.tb_cookie1);
-            this.groupBox1.Controls.Add(this.label10);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.TabStop = false;
-            // 
-            // label10
-            // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.Name = "label10";
-            // 
-            // tb_cookie1
-            // 
-            resources.ApplyResources(this.tb_cookie1, "tb_cookie1");
-            this.tb_cookie1.Name = "tb_cookie1";
-            // 
-            // label11
-            // 
-            resources.ApplyResources(this.label11, "label11");
-            this.label11.Name = "label11";
-            // 
-            // tb_lx1
-            // 
-            resources.ApplyResources(this.tb_lx1, "tb_lx1");
-            this.tb_lx1.Name = "tb_lx1";
-            // 
-            // label12
-            // 
-            resources.ApplyResources(this.label12, "label12");
-            this.label12.Name = "label12";
-            // 
-            // tb_host1
-            // 
-            resources.ApplyResources(this.tb_host1, "tb_host1");
-            this.tb_host1.Name = "tb_host1";
-            // 
-            // ckb_lx1
-            // 
-            resources.ApplyResources(this.ckb_lx1, "ckb_lx1");
-            this.ckb_lx1.Name = "ckb_lx1";
-            this.ckb_lx1.UseVisualStyleBackColor = true;
-            this.ckb_lx1.CheckedChanged += new System.EventHandler(this.ckb_lx1_CheckedChanged);
-            // 
-            // btn_lx1
-            // 
-            resources.ApplyResources(this.btn_lx1, "btn_lx1");
-            this.btn_lx1.Name = "btn_lx1";
-            this.btn_lx1.UseVisualStyleBackColor = true;
-            this.btn_lx1.Click += new System.EventHandler(this.btn_lx1_Click);
-            // 
-            // lb_alert
-            // 
-            resources.ApplyResources(this.lb_alert, "lb_alert");
-            this.lb_alert.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.lb_alert.ForeColor = System.Drawing.Color.White;
-            this.lb_alert.Name = "lb_alert";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btn_lx2);
-            this.groupBox2.Controls.Add(this.ckb_lx2);
-            this.groupBox2.Controls.Add(this.tb_host2);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.tb_lx2);
-            this.groupBox2.Controls.Add(this.label15);
-            this.groupBox2.Controls.Add(this.tb_cookie2);
-            this.groupBox2.Controls.Add(this.label14);
-            resources.ApplyResources(this.groupBox2, "groupBox2");
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.TabStop = false;
-            // 
-            // label14
-            // 
-            resources.ApplyResources(this.label14, "label14");
-            this.label14.Name = "label14";
-            // 
-            // tb_cookie2
-            // 
-            resources.ApplyResources(this.tb_cookie2, "tb_cookie2");
-            this.tb_cookie2.Name = "tb_cookie2";
-            // 
-            // label15
-            // 
-            resources.ApplyResources(this.label15, "label15");
-            this.label15.Name = "label15";
-            // 
-            // tb_lx2
-            // 
-            resources.ApplyResources(this.tb_lx2, "tb_lx2");
-            this.tb_lx2.Name = "tb_lx2";
-            // 
-            // label13
-            // 
-            resources.ApplyResources(this.label13, "label13");
-            this.label13.Name = "label13";
-            // 
-            // tb_host2
-            // 
-            resources.ApplyResources(this.tb_host2, "tb_host2");
-            this.tb_host2.Name = "tb_host2";
-            // 
-            // ckb_lx2
-            // 
-            resources.ApplyResources(this.ckb_lx2, "ckb_lx2");
-            this.ckb_lx2.Name = "ckb_lx2";
-            this.ckb_lx2.UseVisualStyleBackColor = true;
-            this.ckb_lx2.CheckedChanged += new System.EventHandler(this.ckb_lx2_CheckedChanged);
-            // 
-            // btn_lx2
-            // 
-            resources.ApplyResources(this.btn_lx2, "btn_lx2");
-            this.btn_lx2.Name = "btn_lx2";
-            this.btn_lx2.UseVisualStyleBackColor = true;
-            this.btn_lx2.Click += new System.EventHandler(this.btn_lx2_Click);
-            // 
-            // btn_lxhelp
-            // 
-            resources.ApplyResources(this.btn_lxhelp, "btn_lxhelp");
-            this.btn_lxhelp.Name = "btn_lxhelp";
-            this.btn_lxhelp.UseVisualStyleBackColor = true;
-            this.btn_lxhelp.Click += new System.EventHandler(this.btn_lxhelp_Click);
-            // 
-            // tab_lixian
-            // 
-            this.tab_lixian.Controls.Add(this.label16);
-            this.tab_lixian.Controls.Add(this.flp_lixian);
-            resources.ApplyResources(this.tab_lixian, "tab_lixian");
-            this.tab_lixian.Name = "tab_lixian";
-            this.tab_lixian.UseVisualStyleBackColor = true;
-            // 
-            // flp_lixian
-            // 
-            resources.ApplyResources(this.flp_lixian, "flp_lixian");
-            this.flp_lixian.Name = "flp_lixian";
-            // 
-            // label16
-            // 
-            resources.ApplyResources(this.label16, "label16");
-            this.label16.Name = "label16";
-            // 
-            // tab_history
-            // 
-            this.tab_history.Controls.Add(this.flp_history);
-            this.tab_history.Controls.Add(this.btn_delall);
-            this.tab_history.Controls.Add(this.btn_showalllog);
-            resources.ApplyResources(this.tab_history, "tab_history");
-            this.tab_history.Name = "tab_history";
-            this.tab_history.UseVisualStyleBackColor = true;
-            // 
-            // btn_showalllog
-            // 
-            resources.ApplyResources(this.btn_showalllog, "btn_showalllog");
-            this.btn_showalllog.Name = "btn_showalllog";
-            this.btn_showalllog.UseVisualStyleBackColor = true;
-            this.btn_showalllog.Click += new System.EventHandler(this.btn_showalllog_Click);
-            // 
-            // btn_delall
-            // 
-            resources.ApplyResources(this.btn_delall, "btn_delall");
-            this.btn_delall.Name = "btn_delall";
-            this.btn_delall.UseVisualStyleBackColor = true;
-            this.btn_delall.Click += new System.EventHandler(this.btn_delall_Click);
-            // 
-            // flp_history
-            // 
-            this.flp_history.AllowDrop = true;
-            resources.ApplyResources(this.flp_history, "flp_history");
-            this.flp_history.Name = "flp_history";
-            // 
-            // tabPage_log
-            // 
-            this.tabPage_log.Controls.Add(this.Btn_ExportCdn);
-            this.tabPage_log.Controls.Add(this.btn_editcdn);
-            this.tabPage_log.Controls.Add(this.pic_cdnsuccess);
-            this.tabPage_log.Controls.Add(this.btn_CheckCdn);
-            this.tabPage_log.Controls.Add(this.label19);
-            this.tabPage_log.Controls.Add(this.pic_cdnloading);
-            this.tabPage_log.Controls.Add(this.flp_log);
-            this.tabPage_log.Controls.Add(this.label20);
-            resources.ApplyResources(this.tabPage_log, "tabPage_log");
-            this.tabPage_log.Name = "tabPage_log";
-            this.tabPage_log.UseVisualStyleBackColor = true;
-            // 
-            // label20
-            // 
-            resources.ApplyResources(this.label20, "label20");
-            this.label20.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label20.Name = "label20";
-            // 
-            // flp_log
-            // 
-            this.flp_log.AllowDrop = true;
-            resources.ApplyResources(this.flp_log, "flp_log");
-            this.flp_log.Controls.Add(this.alertLabel1);
-            this.flp_log.Name = "flp_log";
-            // 
-            // alertLabel1
-            // 
-            resources.ApplyResources(this.alertLabel1, "alertLabel1");
-            this.alertLabel1.BackColor = System.Drawing.Color.Orange;
-            this.alertLabel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.alertLabel1.left = 0;
-            this.alertLabel1.MainForm = null;
-            this.alertLabel1.Name = "alertLabel1";
-            this.alertLabel1.ShowInMiddle = false;
-            this.alertLabel1.TimeShow = 10000;
-            this.alertLabel1.top = 0;
-            // 
-            // pic_cdnloading
-            // 
-            this.pic_cdnloading.Image = global::PSXDownloadHelper.Properties.Resources.cdnloading;
-            resources.ApplyResources(this.pic_cdnloading, "pic_cdnloading");
-            this.pic_cdnloading.Name = "pic_cdnloading";
-            this.pic_cdnloading.TabStop = false;
-            this.toolTip1.SetToolTip(this.pic_cdnloading, resources.GetString("pic_cdnloading.ToolTip"));
-            // 
-            // label19
-            // 
-            resources.ApplyResources(this.label19, "label19");
-            this.label19.Name = "label19";
-            this.toolTip1.SetToolTip(this.label19, resources.GetString("label19.ToolTip"));
-            // 
-            // btn_CheckCdn
-            // 
-            resources.ApplyResources(this.btn_CheckCdn, "btn_CheckCdn");
-            this.btn_CheckCdn.Name = "btn_CheckCdn";
-            this.btn_CheckCdn.UseVisualStyleBackColor = true;
-            this.btn_CheckCdn.Click += new System.EventHandler(this.btn_CheckCdn_Click);
-            // 
-            // pic_cdnsuccess
-            // 
-            this.pic_cdnsuccess.Image = global::PSXDownloadHelper.Properties.Resources.play;
-            resources.ApplyResources(this.pic_cdnsuccess, "pic_cdnsuccess");
-            this.pic_cdnsuccess.Name = "pic_cdnsuccess";
-            this.pic_cdnsuccess.TabStop = false;
-            this.toolTip1.SetToolTip(this.pic_cdnsuccess, resources.GetString("pic_cdnsuccess.ToolTip"));
-            // 
-            // btn_editcdn
-            // 
-            resources.ApplyResources(this.btn_editcdn, "btn_editcdn");
-            this.btn_editcdn.Name = "btn_editcdn";
-            this.btn_editcdn.UseVisualStyleBackColor = true;
-            this.btn_editcdn.Click += new System.EventHandler(this.btn_editcdn_Click);
-            // 
-            // Btn_ExportCdn
-            // 
-            resources.ApplyResources(this.Btn_ExportCdn, "Btn_ExportCdn");
-            this.Btn_ExportCdn.Name = "Btn_ExportCdn";
-            this.Btn_ExportCdn.UseVisualStyleBackColor = true;
-            this.Btn_ExportCdn.Click += new System.EventHandler(this.Btn_ExportCdn_Click);
-            // 
-            // MaintabControl
-            // 
-            resources.ApplyResources(this.MaintabControl, "MaintabControl");
-            this.MaintabControl.Controls.Add(this.tabPage_log);
-            this.MaintabControl.Controls.Add(this.tab_history);
-            this.MaintabControl.Controls.Add(this.tab_lixian);
-            this.MaintabControl.Controls.Add(this.tab_lixianset);
-            this.MaintabControl.Controls.Add(this.tabPage_set);
-            this.MaintabControl.Controls.Add(this.tabPage_about);
-            this.MaintabControl.Name = "MaintabControl";
-            this.MaintabControl.SelectedIndex = 0;
-            this.MaintabControl.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            // BlockUpdates
+            // 
+            resources.ApplyResources(this.BlockUpdates, "BlockUpdates");
+            this.BlockUpdates.Name = "BlockUpdates";
+            this.BlockUpdates.UseVisualStyleBackColor = true;
             // 
             // LogWin
             // 
@@ -854,27 +863,27 @@
             this.mainPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_ap)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).EndInit();
-            this.CMS_EditMenu.ResumeLayout(false);
+            this.MaintabControl.ResumeLayout(false);
+            this.tabPage_log.ResumeLayout(false);
+            this.tabPage_log.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_cdnsuccess)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_cdnloading)).EndInit();
+            this.flp_log.ResumeLayout(false);
+            this.flp_log.PerformLayout();
+            this.tab_history.ResumeLayout(false);
+            this.tab_lixian.ResumeLayout(false);
+            this.tab_lixian.PerformLayout();
+            this.tab_lixianset.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.tabPage_set.ResumeLayout(false);
+            this.tabPage_set.PerformLayout();
             this.tabPage_about.ResumeLayout(false);
             this.tabPage_about.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPage_set.ResumeLayout(false);
-            this.tabPage_set.PerformLayout();
-            this.tab_lixianset.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.tab_lixian.ResumeLayout(false);
-            this.tab_lixian.PerformLayout();
-            this.tab_history.ResumeLayout(false);
-            this.tabPage_log.ResumeLayout(false);
-            this.tabPage_log.PerformLayout();
-            this.flp_log.ResumeLayout(false);
-            this.flp_log.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_cdnloading)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_cdnsuccess)).EndInit();
-            this.MaintabControl.ResumeLayout(false);
+            this.CMS_EditMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -973,5 +982,6 @@
         private System.Windows.Forms.Label lb_vision;
         private System.Windows.Forms.Label lb_product;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.CheckBox BlockUpdates;
     }
 }

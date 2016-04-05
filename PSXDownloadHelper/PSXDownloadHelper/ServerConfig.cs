@@ -67,12 +67,6 @@ namespace PSXDownloadHelper
         /// <param name="e"></param>
         void ServerConfig_Shown(object sender, EventArgs e)
         {
-            return;
-            if (!_setting.IsShowLog) return;
-            var updatelog = new Featuring();
-            updatelog.ShowDialog();
-            updatelog.Focus();
-            SettingHelper.ChangeSetting("IsShowLog", false);
         }
 
         private void GetServerIp()
@@ -282,6 +276,16 @@ namespace PSXDownloadHelper
         private void ServerConfig_FormClosing(object sender, FormClosingEventArgs e)
         {
             Dispose();
+        }
+
+        private void ckb_cdn_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ckb_pcp_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

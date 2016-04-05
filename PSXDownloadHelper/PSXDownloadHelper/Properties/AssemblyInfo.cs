@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("PSXDownloadHelper CTP")]
-[assembly: AssemblyDescription("PSXDownloadHelper是一款PSS下载游戏加速软件，可以提取psn游戏下载路径为本地路径以加快速度")]
+[assembly: AssemblyDescription("PSXDownloadHelper ")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("KOP-Elan")]
 [assembly: AssemblyProduct("PSXDownloadHelper")]
-[assembly: AssemblyCopyright("Copyright © KOP-Elan 2012")]
+[assembly: AssemblyCopyright("Copyright © KOP-Elan 2016, Patched by Bahrom Uz ")]
 [assembly: AssemblyTrademark("KOP-Elan")]
 [assembly: AssemblyCulture("")]
 
