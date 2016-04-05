@@ -41,7 +41,6 @@ namespace PSXDownloadHelper
                     {
                         tb_filename.BackColor = Color.PaleGreen;
                         LocalPath = System.Environment.CurrentDirectory + @"\Json\IP9100-CUSA00001_00-PLAYROOM00000000-A0102-V0100.json";
-                        tb_local.Text = LocalPath;
                         var t = new Task(() =>
                         {
                             try

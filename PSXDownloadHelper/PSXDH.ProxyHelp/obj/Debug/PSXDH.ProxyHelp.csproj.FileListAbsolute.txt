@@ -1,5 +1,4 @@
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.ProxyHelp\bin\Debug\PSXDH.ProxyHelp.dll
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.ProxyHelp\bin\Debug\PSXDH.ProxyHelp.pdb
-E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.ProxyHelp\obj\Debug\PSXDH.ProxyHelp.csprojResolveAssemblyReference.cache
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.ProxyHelp\obj\Debug\PSXDH.ProxyHelp.dll
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDH.ProxyHelp\obj\Debug\PSXDH.ProxyHelp.pdb

@@ -34,7 +34,6 @@ namespace PSXDownloadHelper
                 errorMsg += args.Exception.Source;
                 errorMsg += "\nStackTrace:\n";
                 errorMsg += args.Exception.StackTrace;
-                errorMsg += "\n\n Bla Bla！";
                 MessageBox.Show(errorMsg, @"Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch

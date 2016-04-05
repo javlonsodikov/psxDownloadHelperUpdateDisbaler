@@ -266,6 +266,7 @@
     <Content Include="Resources\cdnloading.gif" />
     <Content Include="DataFiles\DataHistory.xml">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\cdnstatus.gif" />
     <Content Include="Resources\help.png" />

@@ -1,11 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <PsnRecords>
-  <PsnRecord>
-    <Names></Names>
-    <PsnUrl>http://pixel.rubiconproject.com/tap.php?v=4212&amp;nid=1185&amp;put=3412818432033759388&amp;expires=60</PsnUrl>
-    <LocalUrl>Select the local file or drag-and-drop here to enabled the local acceleration</LocalUrl>
-    <isLixian>false</isLixian>
-    <LixianUrl></LixianUrl>
-    <Patch>false</Patch>
-  </PsnRecord>
+
 </PsnRecords>
