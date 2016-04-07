@@ -253,6 +253,7 @@ namespace PSXDownloadHelper
                         IsCdn = iscdn,
                         Host = urlinfo.Host
                     };
+                if (u.LocalPath != _rm.GetString("replacetip") && u.LocalPath != "") u.IsLixian = true;
                 u.ClickReplaceEvent += u_ClickReplaceEvent;
                 u.NameTextChanged += u_NameTextChanged;
                 u.EnableLixian += u_EnableLixian;

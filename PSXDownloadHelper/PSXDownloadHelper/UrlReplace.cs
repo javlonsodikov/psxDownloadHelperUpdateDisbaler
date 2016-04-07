@@ -31,6 +31,7 @@ namespace PSXDownloadHelper
             set
             {
                 tb_psn.Text = value;
+                tb_local.Text = value;
                 //lb_filename.Text = UrlOperate.GetUrlFileName(value);
                 tb_filename.Text = UrlOperate.GetUrlFileName(value);
                 if (AppConfig.Instance().BlockUpdates)
@@ -40,7 +41,8 @@ namespace PSXDownloadHelper
                     if (match.Success)
                     {
                         tb_filename.BackColor = Color.PaleGreen;
-                        LocalPath = System.Environment.CurrentDirectory + @"\Json\IP9100-CUSA00001_00-PLAYROOM00000000-A0102-V0100.json";
+
+                        LocalPath = System.Environment.CurrentDirectory + @"\Json\IP9100-CUSA00001_00-PLAYROOM00000000-A0102-V0100.json.patched";
                         var t = new Task(() =>
                         {
                             try
@@ -109,7 +111,21 @@ namespace PSXDownloadHelper
         public string LocalPath
         {
             get { return tb_local.Text; }
-            set { tb_local.Text = value; }
+            set
+            {
+
+                if ("Select the local file or drag-and-drop here to enabled the local acceleration" == value)
+                {
+                    if (tb_local.Text == "")
+                    {
+                        tb_local.Text = value;
+                    }
+                }
+                else
+                {
+                    tb_local.Text = value;
+                }
+            }
         }
 
         public DateTime LogTime

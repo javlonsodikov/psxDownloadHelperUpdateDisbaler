@@ -2,6 +2,7 @@ E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\bin\Debug\Resou
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\bin\Debug\Resources\AppIco.png
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\bin\Debug\Json\IP9100-CUSA00001_00-PLAYROOM00000000-A0102-V0100.pkg
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\bin\Debug\License\LICENSE.txt
+E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\bin\Debug\DataFiles\DataHistory.xml
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\bin\Debug\Hosts\CustomHosts.ini
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\bin\Debug\Json\template.json
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\bin\Debug\Hosts\CdnHosts.ini
@@ -56,4 +57,3 @@ E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\obj\Debug\PSXDo
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\obj\Debug\PSXDownloadHelper.application
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\obj\Debug\PSXDownloadHelper.exe
 E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\obj\Debug\PSXDownloadHelper.pdb
-E:\inetpub\PSXDownloadHelper\PSXDownloadHelper\PSXDownloadHelper\bin\Debug\DataFiles\DataHistory.xml
